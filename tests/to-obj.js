@@ -1,7 +1,7 @@
 const toObj = require("../lib/to-obj");
 const assert = require("assert");
 
-describe("reverse", () => {
+describe("toObj", () => {
   it("creates an object when given an array of keys and values", () =>
     assert.deepEqual(toObj(["foo", "data", "baz"], ["bar", [1, 2, 3], true]), {
       foo: "bar",
