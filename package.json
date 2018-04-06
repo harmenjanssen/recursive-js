@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
   "dependencies": {
     "mocha": "^3.5.0"
   }
